@@ -65,65 +65,28 @@
 											</thead>
 											<tbody>
 												<tr>
-													<td>8:00 AM ~ 9:00 AM</td>
-													<td>Registration and Food, Networking</td>
+													<td>8:00 AM - 8:50 AM</td>
+													<td>Check-in</td>
 												</tr>
 												<tr>
-													<td>9:00 AM ~ 9:05 AM</td>
-													<td>Welcome Remarks</td>
+													<td>9:00 AM - 9:45 AM</td>
+													<td>Opening Ceremony</td>
 												</tr>
 												<tr>
-													<td>9:05 AM ~ 9:15 AM</td>
+													<td>9:50 AM - 10:10 AM</td>
 													<td>Icebreakers</td>
 												</tr>
 												<tr>
-													<td>9:15 AM ~ 9:25 AM</td>
-													<td>Presentation from Students of a Sustainable Stanford: Sierra Rosa Garcia</td>
+													<td>10:20 AM - 11:50 AM</td>
+													<td>Small Expert Table Discussions</td>
 												</tr>
 												<tr>
-													<td>9:25 AM ~ 10:10 AM</td>
-													<td>Student Presentations:
-														<ul>
-															<li>Saint Francis High School</li>
-															<li>Saratoga High School</li>
-															<li>Homestead High School Green Ops</li>
-															<li>Palo Alto High School: Zero Waste</li>
-															<li>Pinewood Green Coalition</li>
-															<li>Burlingame High School</li>
-														</ul>
+													<td>12:00 PM - 12:30 PM</td>
+                          <td>Closing Ceremony</td>
 												</tr>
 												<tr>
-													<td>10:10 AM ~ 10:30 AM</td>
-													<td>Break and Networking</td>
-												</tr>
-												<tr>
-													<td>10:30 AM ~ 11:15 AM</td>
-													<td>Student Presentations
-														<ul>
-															<li>San Mateo High School</li>
-															<li>Palo Alto High School: TapOut</li>
-															<li>Mountain View High School: Gardening Club</li>
-															<li>Los Altos High School: Green Team</li>
-															<li>Palo Alto High School Energy Project: Leila Tjiang</li>
-															<li>Saint Francis High School: Fracking Presentation</li>
-														</ul>
-													</td>
-												</tr>
-												<tr>
-													<td>11:15 AM ~ 11:30 AM</td>
-													<td>Green Town Los Altos: Guest Speaker Margie Suozzo</td>
-												</tr>
-												<tr>
-													<td>11:30 AM ~ 11:45 AM</td>
-													<td>Regroup with your Club</td>
-												</tr>
-												<tr>
-													<td>11:45 AM ~ 11:55 AM</td>
-													<td>Closing Remarks</td>
-												</tr>
-												<tr>
-													<td>11:55 AM ~ 12:30 AM</td>
-													<td>Mingle Session: Network, Outreach, and Get Food</td>
+													<td>12:30 PM - 1:00 PM</td>
+													<td>Q&A Session/Wrap Up</td>
 												</tr>
 											</tbody>
 										</table>
@@ -165,10 +128,10 @@
 									</div>
 									<br>
 									<div style="text-align:center">
-										<span class="dot" onclick="currentSlide(1)"></span> 
-										<span class="dot" onclick="currentSlide(2)"></span> 
-										<span class="dot" onclick="currentSlide(3)"></span> 
-										<span class="dot" onclick="currentSlide(4)"></span> 
+										<span class="dot" onclick="currentSlide(1)"></span>
+										<span class="dot" onclick="currentSlide(2)"></span>
+										<span class="dot" onclick="currentSlide(3)"></span>
+										<span class="dot" onclick="currentSlide(4)"></span>
 									</div>
 									<br>
 								</span>
@@ -483,7 +446,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> 
+			<script src="assets/js/main.js"></script>
 			<script>
 
 				$(document).ready(function() {
@@ -505,15 +468,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				  var i;
 				  var slides = document.getElementsByClassName("mySlides");
 				  var dots = document.getElementsByClassName("dot");
-				  if (n > slides.length) {slideIndex = 1} 
+				  if (n > slides.length) {slideIndex = 1}
 				  if (n < 1) {slideIndex = slides.length}
 				  for (i = 0; i < slides.length; i++) {
-				      slides[i].style.display = "none"; 
+				      slides[i].style.display = "none";
 				  }
 				  for (i = 0; i < dots.length; i++) {
 				      dots[i].className = dots[i].className.replace(" active", "");
 				  }
-				  slides[slideIndex-1].style.display = "block"; 
+				  slides[slideIndex-1].style.display = "block";
 				  dots[slideIndex-1].className += " active";
 				}
 			</script>
