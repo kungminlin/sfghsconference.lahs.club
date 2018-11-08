@@ -50,7 +50,7 @@
 								<h2 class="major">Information</h2>
 								<section>
 									<h3 class="major">Location</h3>
-									<center><iframe height="400vh" width="500vw" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJi_OgIgO6j4ARa5kmXo5aJ8c&key=AIzaSyCOUJpOtO-38LVZu-3LtLiaIr0GTG8D5DQ" allowfullscreen></iframe></center>
+									<center><iframe height="400vh" width="500vw" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjbPX1qW3j4ARz2fefpK0558&key=AIzaSyCOUJpOtO-38LVZu-3LtLiaIr0GTG8D5DQ" allowfullscreen></iframe></center>
 								</section>
 								<br />
 								<section>
