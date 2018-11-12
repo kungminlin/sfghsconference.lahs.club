@@ -56,6 +56,23 @@
 		box-sizing: border-box;
 	}
 
+	ul#lightSlider {
+	    list-style: none outside none;
+	    padding-left: 0;
+	    margin-bottom:0;
+	}
+	ul#lightSlider li {
+	    display: block;
+	    float: left;
+	    margin-right: 6px;
+	    cursor:pointer;
+	}
+	ul#lightSlider img {
+	    display: block;
+	    height: auto;
+	    max-width: 100%;
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -94,6 +111,8 @@
 	html {
 		font-size: 16pt;
 	}
+
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -205,6 +224,8 @@
 	h6 {
 		font-size: 0.6rem;
 	}
+
+
 
 	@media screen and (max-width: 736px) {
 

@@ -13,6 +13,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="/assets/js/lightslider.js"></script>
 	</head>
 	<body>
 
@@ -97,7 +99,21 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Gallery</h2>
-								<span class="image main">
+								<ul id="lightSlider">
+								  <li data-thumb="/images/img1.jpg">
+								  	<img src="/images/img1.jpg">
+								  </li>
+									<li data-thumb="/images/img2.jpg">
+								  	<img src="/images/img2.jpg">
+								  </li>
+									<li data-thumb="/images/img3.jpg">
+								  	<img src="/images/img3.jpg">
+								  </li>
+									<li data-thumb="/images/img4.jpg">
+								  	<img src="/images/img4.jpg">
+								  </li>
+								</ul>
+								<!-- <span class="image main">
 									<div class="slideshow-container">
 										<div class="mySlides fade">
 										    <div class="numbertext">1 / 4</div>
@@ -134,7 +150,7 @@
 										<span class="dot" onclick="currentSlide(4)"></span>
 									</div>
 									<br>
-								</span>
+								</span> -->
 							</article>
 
 						<!-- About -->
@@ -443,16 +459,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<!-- <script src="assets/js/jquery.min.js"></script> -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-
-				$(document).ready(function() {
-					//window.alert("Website under temporary construction.");
-				});
-
+			<!-- <script>
 				var slideIndex = 1;
 				showSlides(slideIndex);
 
@@ -479,6 +490,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				  slides[slideIndex-1].style.display = "block";
 				  dots[slideIndex-1].className += " active";
 				}
-			</script>
+			</script> -->
 	</body>
 </html>
