@@ -13,6 +13,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/lightslider.css" />
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="/assets/js/lightslider.js"></script>
 	</head>
@@ -100,57 +101,20 @@
 							<article id="work">
 								<h2 class="major">Gallery</h2>
 								<ul id="lightSlider">
-								  <li data-thumb="/images/img1.jpg">
-								  	<img src="/images/img1.jpg">
-								  </li>
-									<li data-thumb="/images/img2.jpg">
-								  	<img src="/images/img2.jpg">
-								  </li>
-									<li data-thumb="/images/img3.jpg">
-								  	<img src="/images/img3.jpg">
-								  </li>
-									<li data-thumb="/images/img4.jpg">
-								  	<img src="/images/img4.jpg">
-								  </li>
+									<?php
+										for ($i=1; $i<=39; $i++) {
+											echo "<li data-thumb='/images/past_conference/img$i.jpg'>";
+											echo "<img src='/images/past_conference/img$i.jpg'>";
+											echo "</li>";
+										}
+									 ?>
+									<li data-thumb='/images/past_conference/img40.png'>
+										<img src='/images/past_conference/img40.png'>
+									</li>
+									<li data-thumb='/images/past_conference/img41.png'>
+										<img src='/images/past_conference/img41.png'>
+									</li>
 								</ul>
-								<!-- <span class="image main">
-									<div class="slideshow-container">
-										<div class="mySlides fade">
-										    <div class="numbertext">1 / 4</div>
-										    <img src="images/img1.jpg" style="width:100%">
-										    <div class="text">Group Photo</div>
-										</div>
-
-										<div class="mySlides fade">
-										    <div class="numbertext">2 / 4</div>
-										    <img src="images/img2.jpg" style="width:100%">
-										    <div class="text">Group Discussion</div>
-										</div>
-
-										<div class="mySlides fade">
-										    <div class="numbertext">3 / 4</div>
-										    <img src="images/img3.jpg" style="width:100%">
-										    <div class="text">Presentation of Ideas</div>
-										</div>
-
-										<div class="mySlides fade">
-										    <div class="numbertext">4 / 4</div>
-										    <img src="images/img4.jpg" style="width:100%">
-										    <div class="text">Discussing with Alumni</div>
-										</div>
-
-										<a class="prev" onclick="plusSlides(-1)" style="text-decoration:none">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)" style="text-decoration:none">&#10095;</a>
-									</div>
-									<br>
-									<div style="text-align:center">
-										<span class="dot" onclick="currentSlide(1)"></span>
-										<span class="dot" onclick="currentSlide(2)"></span>
-										<span class="dot" onclick="currentSlide(3)"></span>
-										<span class="dot" onclick="currentSlide(4)"></span>
-									</div>
-									<br>
-								</span> -->
 							</article>
 
 						<!-- About -->
@@ -167,13 +131,13 @@
 									<li>Recycling and Compost</li>
 									<li>Renewable Energy on Campus</li>
 								</ul>
-								<section>
+								<!-- <section>
 									<h3 class="major">Sponsors</h3>
 									<img class="image fit" src="images/google.jpg">
 									<a href="https://www.stickermule.com/supports/you"><img class="image fit" src="images/sticker-mule-logo-light.png"/></a>
 									<img class="image" style="width:50%" src="images/greentown_los_altos.png"><img class="image" style="width:40%;display:inline-block;float:right" src="images/california_water_service.png">
 
-								</section>
+								</section> -->
 							</article>
 
 						<!-- Contact -->
@@ -459,37 +423,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<!-- <script src="assets/js/jquery.min.js"></script> -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!-- <script>
-				var slideIndex = 1;
-				showSlides(slideIndex);
-
-				function plusSlides(n) {
-				  showSlides(slideIndex += n);
-				}
-
-				function currentSlide(n) {
-				  showSlides(slideIndex = n);
-				}
-
-				function showSlides(n) {
-				  var i;
-				  var slides = document.getElementsByClassName("mySlides");
-				  var dots = document.getElementsByClassName("dot");
-				  if (n > slides.length) {slideIndex = 1}
-				  if (n < 1) {slideIndex = slides.length}
-				  for (i = 0; i < slides.length; i++) {
-				      slides[i].style.display = "none";
-				  }
-				  for (i = 0; i < dots.length; i++) {
-				      dots[i].className = dots[i].className.replace(" active", "");
-				  }
-				  slides[slideIndex-1].style.display = "block";
-				  dots[slideIndex-1].className += " active";
-				}
-			</script> -->
+			<script>
+				$(document).ready(function() {
+					$('#lightSlider').lightSlider({
+						gallery: true,
+						item: 1,
+						loop:true,
+						slideMargin: 0,
+						thumbItem: 9
+					});
+				})
+			</script>
 	</body>
 </html>
