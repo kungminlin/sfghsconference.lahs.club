@@ -79,18 +79,6 @@ var alreadyLoaded = false;
 			// Methods.
 				$main._show = function(id, initial) {
 
-					if (!alreadyLoaded) {
-						console.log('hi');
-						$('#lightSlider').lightSlider({
-							gallery: true,
-							item: 1,
-							loop:true,
-							slideMargin: 0,
-							thumbItem: 9
-						});
-						alreadyLoaded = true;
-					}
-
 
 					var $article = $main_articles.filter('#' + id);
 
@@ -99,6 +87,8 @@ var alreadyLoaded = false;
 							return;
 
 					// Handle lock.
+
+
 
 						// Already locked? Speed through "show" steps w/o delays.
 							if (locked || (typeof initial != 'undefined' && initial === true)) {
@@ -123,6 +113,18 @@ var alreadyLoaded = false;
 
 								// Activate article.
 									$article.addClass('active');
+
+									if (id === "work") {
+										console.log('hi');
+										$('#lightSlider').lightSlider({
+											gallery: true,
+											item: 1,
+											loop:true,
+											slideMargin: 0,
+											thumbItem: 9
+										});
+										alreadyLoaded = true;
+									}
 
 								// Unlock.
 									locked = false;
@@ -161,6 +163,18 @@ var alreadyLoaded = false;
 										setTimeout(function() {
 
 											$article.addClass('active');
+
+											if (id === "work") {
+												console.log('hi');
+												$('#lightSlider').lightSlider({
+													gallery: true,
+													item: 1,
+													loop:true,
+													slideMargin: 0,
+													thumbItem: 9
+												});
+												alreadyLoaded = true;
+											}
 
 											// Window stuff.
 												$window
@@ -201,6 +215,18 @@ var alreadyLoaded = false;
 										setTimeout(function() {
 
 											$article.addClass('active');
+
+											if (id === "work") {
+												console.log('hi');
+												$('#lightSlider').lightSlider({
+													gallery: true,
+													item: 1,
+													loop:true,
+													slideMargin: 0,
+													thumbItem: 9
+												});
+												alreadyLoaded = true;
+											}
 
 											// Window stuff.
 												$window
