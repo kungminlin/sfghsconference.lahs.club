@@ -3,6 +3,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+var alreadyLoaded = false;
 
 (function($) {
 
@@ -78,6 +79,19 @@
 			// Methods.
 				$main._show = function(id, initial) {
 
+					if (!alreadyLoaded) {
+						console.log('hi');
+						$('#lightSlider').lightSlider({
+							gallery: true,
+							item: 1,
+							loop:true,
+							slideMargin: 0,
+							thumbItem: 9
+						});
+						alreadyLoaded = true;
+					}
+
+
 					var $article = $main_articles.filter('#' + id);
 
 					// No such article? Bail.
@@ -106,6 +120,7 @@
 									$main.show();
 									$article.show();
 
+
 								// Activate article.
 									$article.addClass('active');
 
@@ -115,6 +130,7 @@
 								// Unmark as switching.
 									setTimeout(function() {
 										$body.removeClass('is-switching');
+
 									}, (initial ? 1000 : 0));
 
 								return;
@@ -180,6 +196,7 @@
 										$main.show();
 										$article.show();
 
+
 									// Activate article.
 										setTimeout(function() {
 
@@ -194,6 +211,8 @@
 												setTimeout(function() {
 													locked = false;
 												}, delay);
+
+
 
 										}, 25);
 
