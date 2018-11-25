@@ -114,7 +114,7 @@ var alreadyLoaded = false;
 								// Activate article.
 									$article.addClass('active');
 
-									if (id === "work") {
+									if (!alreadyLoaded && id === "work") {
 										console.log('hi');
 										$('#lightSlider').lightSlider({
 											gallery: true,
@@ -164,7 +164,7 @@ var alreadyLoaded = false;
 
 											$article.addClass('active');
 
-											if (id === "work") {
+											if (!alreadyLoaded && id === "work") {
 												console.log('hi');
 												$('#lightSlider').lightSlider({
 													gallery: true,
@@ -216,7 +216,7 @@ var alreadyLoaded = false;
 
 											$article.addClass('active');
 
-											if (id === "work") {
+											if (!alreadyLoaded && id === "work") {
 												console.log('hi');
 												$('#lightSlider').lightSlider({
 													gallery: true,
