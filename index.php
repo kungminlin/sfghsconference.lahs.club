@@ -58,6 +58,11 @@
 								<br />
 								<section>
 									<h3 class="major">Schedule</h3>
+									<p>
+										Date: January 26, 2019
+										<i>*Schedule is subject to change</i>
+									</p>
+
 									<div class="table-wrapper">
 										<table>
 											<thead>
@@ -72,23 +77,35 @@
 													<td>Check-in</td>
 												</tr>
 												<tr>
-													<td>9:00 AM - 9:45 AM</td>
+													<td>9:00 AM - 9:35 AM</td>
 													<td>Opening Ceremony</td>
 												</tr>
 												<tr>
-													<td>9:50 AM - 10:10 AM</td>
+													<td>9:40 AM - 9:50 AM</td>
 													<td>Icebreakers</td>
 												</tr>
 												<tr>
-													<td>10:20 AM - 11:50 AM</td>
+													<td>9:55 AM - 10:35 AM</td>
 													<td>Small Expert Table Discussions</td>
 												</tr>
 												<tr>
-													<td>12:00 PM - 12:30 PM</td>
+													<td>10:35 AM - 10:45 AM</td>
+													<td>Break</td>
+												</tr>
+												<tr>
+													<td>10:45 AM - 11:25 AM</td>
+													<td>Small Expert Table Discussions - Discuss With Other Groups</td>
+												</tr>
+												<tr>
+													<td>11:30 AM - 12:00 AM</td>
+													<td>Student Presentations</td>
+												</tr>
+												<tr>
+													<td>12:05 PM - 12:45 PM</td>
                           <td>Closing Ceremony</td>
 												</tr>
 												<tr>
-													<td>12:30 PM - 1:00 PM</td>
+													<td>12:45 PM - 1:00 PM</td>
 													<td>Q&A Session/Wrap Up</td>
 												</tr>
 											</tbody>
@@ -130,6 +147,7 @@
 									<li>Increasing Publicity and Outreach</li>
 									<li>Recycling and Compost</li>
 									<li>Renewable Energy on Campus</li>
+									<li>Sustainability and Environmental Impacts</li>
 								</ul>
 								<!-- <section>
 									<h3 class="major">Sponsors</h3>
