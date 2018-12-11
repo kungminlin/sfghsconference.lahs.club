@@ -73,40 +73,44 @@
 											</thead>
 											<tbody>
 												<tr>
-													<td>8:00 AM - 8:50 AM</td>
+													<td>7:30 AM - 8:00 AM</td>
 													<td>Check-in</td>
 												</tr>
 												<tr>
-													<td>9:00 AM - 9:35 AM</td>
+													<td>8:05 AM - 8:45 AM</td>
 													<td>Opening Ceremony</td>
 												</tr>
 												<tr>
-													<td>9:40 AM - 9:50 AM</td>
-													<td>Icebreakers</td>
+													<td>8:50 AM - 9:05 AM</td>
+													<td>Icebreaker</td>
 												</tr>
 												<tr>
-													<td>9:55 AM - 10:35 AM</td>
+													<td>9:10 AM - 9:50 PM</td>
 													<td>Small Expert Table Discussions</td>
 												</tr>
 												<tr>
-													<td>10:35 AM - 10:45 AM</td>
+													<td>9:50 AM - 10:00 AM</td>
 													<td>Break</td>
 												</tr>
 												<tr>
-													<td>10:45 AM - 11:25 AM</td>
+													<td>10:00 AM - 10:40 AM</td>
 													<td>Small Expert Table Discussions - Discuss With Other Groups</td>
 												</tr>
 												<tr>
-													<td>11:30 AM - 12:00 AM</td>
+													<td>10:40 AM - 11:40 AM</td>
 													<td>Student Presentations</td>
 												</tr>
 												<tr>
-													<td>12:05 PM - 12:45 PM</td>
+													<td>11:45 AM - 12:25 PM</td>
                           <td>Closing Ceremony</td>
 												</tr>
 												<tr>
-													<td>12:45 PM - 1:00 PM</td>
-													<td>Q&A Session/Wrap Up</td>
+													<td>12:25 PM - 12:40 PM</td>
+													<td>Q&A Session</td>
+												</tr>
+												<tr>
+													<td>12:40 PM - 1:00 PM</td>
+													<td>Wrap Up</td>
 												</tr>
 											</tbody>
 										</table>
