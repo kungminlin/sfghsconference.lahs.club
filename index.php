@@ -153,13 +153,14 @@
 									<li>Renewable Energy on Campus</li>
 									<li>Sustainability and Environmental Impacts</li>
 								</ul>
-								<!-- <section>
+								<section>
 									<h3 class="major">Sponsors</h3>
-									<img class="image fit" src="images/google.jpg">
+									<a href="https://google.org/"><img class="image fit" src="images/google.jpg"></a>
+									<a href="https://www.svcleanenergy.org/"><img class="image fit" src="images/svce-logo.jpg"></a>
+									<a href="https://drinkpathwater.com/"><img class="image fit" src="images/pathwater-logo.jpg"></a>
 									<a href="https://www.stickermule.com/supports/you"><img class="image fit" src="images/sticker-mule-logo-light.png"/></a>
-									<img class="image" style="width:50%" src="images/greentown_los_altos.png"><img class="image" style="width:40%;display:inline-block;float:right" src="images/california_water_service.png">
-
-								</section> -->
+									<a href="https://greentownlosaltos.org/"><img class="image" style="width:50%" src="images/greentown_los_altos.png"></a><a href="https://www.calwater.com/"><img class="image" style="width:40%;display:inline-block;float:right" src="images/california_water_service.png"></a>
+								</section>
 							</article>
 
 						<!-- Contact -->
