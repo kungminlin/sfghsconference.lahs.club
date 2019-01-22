@@ -102,7 +102,18 @@
 												</tr>
 												<tr>
 													<td>10:00 AM - 11:00 AM</td>
-													<tr>School Presentations</tr>
+													<td>
+														School Presentations
+														<ol>
+															<li>Harker Green Team</li>
+															<li>Burlingame Environmental Club</li>
+															<li>Toga Green Team</li>
+															<li>Zero Waste Initiative</li>
+															<li>SF Environmental Club</li>
+															<li>ForeverGreen Club</li>
+															<li>Run 5k Committee</li>
+														</ol>
+													</td>
 												</tr>
 												<tr>
 													<td>11:00 AM - 11:30 AM</td>
