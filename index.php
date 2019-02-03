@@ -219,7 +219,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">Copyright &copy; 2017 LAHS Green Team | Website created by Kung-Min Lin in association with <a href="https://lahs.club">LAHS Hack Club</a> using <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">Copyright &copy; 2019 LAHS Green Team | Website created by Kung-Min Lin in association with <a href="https://lahs.club">LAHS Hack Club</a> using <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
