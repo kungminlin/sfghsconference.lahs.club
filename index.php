@@ -152,7 +152,7 @@
 										}
 									 ?>
 								</ul>
-								<h4>Students for Green High Schools 2019</h4>
+								<h4>Students for Green High Schools 2018</h4>
 								<ul class="lightSlider" id="lightSlider2020" style="height:auto;opacity:1">
 									<?php
 									foreach(glob('images/2018/*.*') as $file) {
