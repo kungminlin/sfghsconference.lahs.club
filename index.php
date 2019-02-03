@@ -31,7 +31,8 @@
 							<div class="inner">
 								<h1>Students for Green High Schools</h1>
 								<p>A conference for young environmentalists and activists who are interested in bringing change to their community.</p>
-								<button><a href="https://goo.gl/forms/iljd3GMbV8vONPUu1" style="text-decoration:none">Sign up now</a></button>
+								<p>Coming Soon January 2020</p>
+								<!-- <button><a href="https://goo.gl/forms/iljd3GMbV8vONPUu1" style="text-decoration:none">Sign up now</a></button> -->
 							</div>
 						</div>
 						<nav>
@@ -51,6 +52,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Information</h2>
+								<p><i>*Students for Green High Schools 2019</i></p>
 								<section>
 									<h3 class="major">Location</h3>
 									<center><iframe height="400vh" width="500vw" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjbPX1qW3j4ARz2fefpK0558&key=AIzaSyCOUJpOtO-38LVZu-3LtLiaIr0GTG8D5DQ" allowfullscreen></iframe></center>
@@ -140,20 +142,25 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Gallery</h2>
-								<ul id="lightSlider" style="height:auto;opacity:1">
+								<h4>Students for Green High Schools 2019</h4>
+								<ul class="lightSlider" id="lightSlider2019" style="height:auto;opacity:1">
 									<?php
-										for ($i=1; $i<=39; $i++) {
-											echo "<li data-thumb='/images/past_conference/img$i.jpg'>";
-											echo "<img src='/images/past_conference/img$i.jpg'>";
+									foreach(glob('images/2019/*.*') as $file) {
+											echo "<li data-thumb='$file'>";
+											echo "<img src='$file'>";
 											echo "</li>";
 										}
 									 ?>
-									<li data-thumb='/images/past_conference/img40.png'>
-										<img src='/images/past_conference/img40.png'>
-									</li>
-									<li data-thumb='/images/past_conference/img41.png'>
-										<img src='/images/past_conference/img41.png'>
-									</li>
+								</ul>
+								<h4>Students for Green High Schools 2019</h4>
+								<ul class="lightSlider" id="lightSlider2020" style="height:auto;opacity:1">
+									<?php
+									foreach(glob('images/2018/*.*') as $file) {
+											echo "<li data-thumb='$file'>";
+											echo "<img src='$file'>";
+											echo "</li>";
+										}
+									 ?>
 								</ul>
 							</article>
 
@@ -172,14 +179,14 @@
 									<li>Renewable Energy on Campus</li>
 									<li>Sustainability and Environmental Impacts</li>
 								</ul>
-								<section>
+								<!-- <section>
 									<h3 class="major">Sponsors</h3>
 									<a href="https://google.org/"><img class="image fit" src="images/google.jpg"></a>
 									<a href="https://www.svcleanenergy.org/"><img class="image fit" src="images/svce-logo.jpg"></a>
 									<a href="https://drinkpathwater.com/"><img class="image fit" src="images/pathwater-logo.jpg"></a>
 									<a href="https://www.stickermule.com/supports/you"><img class="image fit" src="images/sticker-mule-logo-light.png"/></a>
 									<a href="https://greentownlosaltos.org/"><img class="image" style="width:50%" src="images/greentown_los_altos.png"></a><a href="https://www.calwater.com/"><img class="image" style="width:40%;display:inline-block;float:right" src="images/california_water_service.png"></a>
-								</section>
+								</section> -->
 							</article>
 
 						<!-- Contact -->

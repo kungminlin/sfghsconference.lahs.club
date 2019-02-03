@@ -116,7 +116,7 @@ var alreadyLoaded = false;
 
 									if (!alreadyLoaded && id === "work") {
 										console.log('hi');
-										$('#lightSlider').lightSlider({
+										$('.lightSlider').lightSlider({
 											gallery: true,
 											item: 1,
 											loop:true,
@@ -166,7 +166,7 @@ var alreadyLoaded = false;
 
 											if (!alreadyLoaded && id === "work") {
 												console.log('hi');
-												$('#lightSlider').lightSlider({
+												$('.lightSlider').lightSlider({
 													gallery: true,
 													item: 1,
 													loop:true,
@@ -218,7 +218,7 @@ var alreadyLoaded = false;
 
 											if (!alreadyLoaded && id === "work") {
 												console.log('hi');
-												$('#lightSlider').lightSlider({
+												$('.lightSlider').lightSlider({
 													gallery: true,
 													item: 1,
 													loop:true,
