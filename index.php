@@ -31,7 +31,7 @@
 							<div class="inner">
 								<h1>Students for Green High Schools</h1>
 								<p>A conference for young environmentalists and activists who are interested in bringing change to their community.</p>
-								<p>Coming Soon January 2020</p>
+								<p>January 25, 2020 @ Samsung Strategy and Innovation Center (SSIC)</p>
 								<!-- <button><a href="https://goo.gl/forms/iljd3GMbV8vONPUu1" style="text-decoration:none">Sign up now</a></button> -->
 							</div>
 						</div>
@@ -52,16 +52,16 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Information</h2>
-								<p><i>*Students for Green High Schools 2019</i></p>
+								<p><i>*Students for Green High Schools 2020</i></p>
 								<section>
 									<h3 class="major">Location</h3>
-									<center><iframe height="400vh" width="500vw" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjbPX1qW3j4ARz2fefpK0558&key=AIzaSyCOUJpOtO-38LVZu-3LtLiaIr0GTG8D5DQ" allowfullscreen></iframe></center>
+									<center><iframe width="500vw" height="400vh" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTaJo9uOkj4ARBfSHdLo5KME&key=AIzaSyCOUJpOtO-38LVZu-3LtLiaIr0GTG8D5DQ" allowfullscreen></iframe></center>
 								</section>
 								<br />
 								<section>
 									<h3 class="major">Schedule</h3>
 									<p>
-										Date: January 26, 2019
+										Date: January 25, 2020
 										<i>*Schedule is subject to change</i>
 									</p>
 
@@ -142,6 +142,7 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Gallery</h2>
+								<!--
 								<h4>Students for Green High Schools 2019</h4>
 								<ul class="lightSlider" id="lightSlider2019" style="height:auto;opacity:1">
 									<?php
@@ -162,6 +163,7 @@
 										}
 									 ?>
 								</ul>
+								-->
 							</article>
 
 						<!-- About -->
@@ -219,7 +221,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">Copyright &copy; 2019 LAHS Green Team | Website created by Kung-Min Lin in association with <a href="https://lahs.club">LAHS Hack Club</a> using <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">Copyright &copy; 2020 LAHS Green Team | Website created by Kung-Min Lin in association with <a href="https://lahs.club">LAHS Hack Club</a> using <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
