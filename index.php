@@ -144,9 +144,7 @@
 								<h2 class="major">Gallery</h2>
 								<center>
 									<button><a href="https://photos.app.goo.gl/PTC9PoghgdR9UAdK9" style="text-decoration:none">SFGHS Conference 2019: Source 1</a></button>
-									<br>
 									<button><a href="https://photos.app.goo.gl/VoHRVmvTduE2omnz5" style="text-decoration:none">SFGHS Conference 2019: Source 2</a></button>
-									<br>
 									<button><a href="https://photos.app.goo.gl/v1FIPWmQLADa9BY83" style="text-decoration:none">SFGHS Conference 2018</a></button>
 								</center>
 							</article>
