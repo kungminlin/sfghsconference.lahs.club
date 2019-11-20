@@ -32,7 +32,7 @@
 								<h1>Students for Green High Schools</h1>
 								<p>A conference for young environmentalists and activists who are interested in bringing change to their community.</p>
 								<p>January 25, 2020 @ Samsung Strategy and Innovation Center (SSIC)</p>
-								<!-- <button><a href="https://goo.gl/forms/iljd3GMbV8vONPUu1" style="text-decoration:none">Sign up now</a></button> -->
+								<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfrHMPhY0wY0LYY6yRlw0vprmrtA11FTZwLWoemHIqJTi-hew/viewform" style="text-decoration:none">Sign up now</a></button>
 							</div>
 						</div>
 						<nav>
