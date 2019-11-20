@@ -142,28 +142,9 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Gallery</h2>
-								<!--
-								<h4>Students for Green High Schools 2019</h4>
-								<ul class="lightSlider" id="lightSlider2019" style="height:auto;opacity:1">
-									<?php
-									foreach(glob('images/2019/*.*') as $file) {
-											echo "<li data-thumb='$file'>";
-											echo "<img src='$file'>";
-											echo "</li>";
-										}
-									 ?>
-								</ul>
-								<h4>Students for Green High Schools 2018</h4>
-								<ul class="lightSlider" id="lightSlider2020" style="height:auto;opacity:1">
-									<?php
-									foreach(glob('images/2018/*.*') as $file) {
-											echo "<li data-thumb='$file'>";
-											echo "<img src='$file'>";
-											echo "</li>";
-										}
-									 ?>
-								</ul>
-								-->
+								<button><a href="https://photos.app.goo.gl/PTC9PoghgdR9UAdK9" style="text-decoration:none">SFGHS Conference 2019: Source 1</a></button>
+								<button><a href="https://photos.app.goo.gl/VoHRVmvTduE2omnz5" style="text-decoration:none">SFGHS Conference 2019: Source 2</a></button>
+								<button><a href="https://photos.app.goo.gl/v1FIPWmQLADa9BY83" style="text-decoration:none">SFGHS Conference 2018</a></button>
 							</article>
 
 						<!-- About -->
