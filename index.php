@@ -75,63 +75,40 @@
 											</thead>
 											<tbody>
 												<tr>
-													<td>7:30 AM - 8:00 AM</td>
+													<td>8:00 AM</td>
 													<td>Check-In</td>
 												</tr>
 												<tr>
-													<td>8:05 AM - 8:20 AM</td>
+													<td>8:30 AM</td>
 													<td>Opening Ceremony</td>
 												</tr>
 												<tr>
-													<td>8:20 AM - 8:45 AM</td>
-													<td>Keynote Speaker: Darryl Willis</td>
+													<td>9:00 AM</td>
+													<td>Keynote Presentation from Samsung</td>
 												</tr>
 												<tr>
-													<td>8:45 AM - 8:55 AM</td>
-													<td>Icebreaker</td>
+													<td>9:20 AM</td>
+													<td>Club Expo</td>
+												</tr>
+												<!-- <tr>
+													<td>10:20 AM</td>
+													<td>Presentation from Acterra</td>
+												</tr> -->
+												<tr>
+													<td>10:40 AM</td>
+													<td>Break</td>
 												</tr>
 												<tr>
-													<td>9:00 AM - 9:30 AM</td>
+													<td>11:00 AM</td>
 													<td>Small Expert Table Discussions</td>
 												</tr>
 												<tr>
-													<td>9:30 AM - 9:45 AM</td>
-													<td>Pathwater Representative: Gulshan Kumar</td>
+													<td>12:20 PM</td>
+													<td>Group Presentations</td>
 												</tr>
 												<tr>
-													<td>9:45 AM - 10:00 AM</td>
-													<td>BREAK</td>
-												</tr>
-												<tr>
-													<td>10:00 AM - 11:00 AM</td>
-													<td>
-														School Presentations
-														<ol>
-															<li>Harker Green Team</li>
-															<li>Burlingame Environmental Club</li>
-															<li>Toga Green Team</li>
-															<li>Zero Waste Initiative</li>
-															<li>SF Environmental Club</li>
-															<li>ForeverGreen Club</li>
-															<li>Run 5k Committee</li>
-														</ol>
-													</td>
-												</tr>
-												<tr>
-													<td>11:00 AM - 11:30 AM</td>
-													<td>Small Expert Table Discussions - Discuss With Other Groups</td>
-												</tr>
-												<tr>
-													<td>11:35 AM - 11:55 AM</td>
-													<td>Keynote Speaker: Silicon Valley Clean Energy</td>
-												</tr>
-												<tr>
-													<td>11:55 AM - 12:10 PM</td>
-                          <td>Closing Ceremony</td>
-												</tr>
-												<tr>
-													<td>12:10 PM - 12:20 PM</td>
-													<td>Networking/End of Event</td>
+													<td>12:40 PM</td>
+													<td>Closing Ceremony</td>
 												</tr>
 											</tbody>
 										</table>
