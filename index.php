@@ -143,7 +143,7 @@
 								</ul>
 								<section>
 									<h3 class="major">Sponsors</h3>
-									<a href="https://www.samsung.com/us/"><img class="image fit" src="images/samsung.webp"></a>
+									<a href="https://www.samsung.com/us/"><img class="image fit" src="images/samsung.webp" style="width:70%;margin:0 auto"></a>
 									<a href="https://www.acterra.org/"><img class="image fit" src="images/acterra.jpg"></a>
 									<!-- <a href="https://google.org/"><img class="image fit" src="images/google.jpg"></a> -->
 									<a href="https://www.svcleanenergy.org/"><img class="image fit" src="images/svce-logo.jpg"></a>
