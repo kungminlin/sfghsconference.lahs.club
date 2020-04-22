@@ -32,7 +32,6 @@
 								<h1>Students for Green High Schools</h1>
 								<p>A conference for young environmentalists and activists who are interested in bringing change to their community.</p>
 								<p>January 25, 2020 @ Samsung Strategy and Innovation Center (SSIC)</p>
-								<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSfrHMPhY0wY0LYY6yRlw0vprmrtA11FTZwLWoemHIqJTi-hew/viewform" style="text-decoration:none">Sign up now</a></button>
 							</div>
 						</div>
 						<nav>
@@ -120,10 +119,11 @@
 							<article id="work">
 								<h2 class="major">Gallery</h2>
 								<center>
+									<button><a target="_blank" href="https://photos.app.goo.gl/XknPaQRtwQc6734y5" style="text-decoration:none">SFGHS Conference 2020</a></button>
 									<button><a target="_blank" href="https://photos.app.goo.gl/PTC9PoghgdR9UAdK9" style="text-decoration:none">SFGHS Conference 2019: Source 1</a></button>
 									<button><a target="_blank" href="https://photos.app.goo.gl/VoHRVmvTduE2omnz5" style="text-decoration:none">SFGHS Conference 2019: Source 2</a></button>
 									<button><a target="_blank" href="https://photos.app.goo.gl/v1FIPWmQLADa9BY83" style="text-decoration:none">SFGHS Conference 2018</a></button>
-								</center>
+u								</center>
 							</article>
 
 						<!-- About -->
